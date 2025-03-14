@@ -1,3 +1,4 @@
+// shopping card
 document.addEventListener("DOMContentLoaded", function () {
     const cartButton = document.querySelector("#actions button");
     const cartDropdown = document.createElement("div");
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+// Tooltip for Shopping Bag Icon
 document.addEventListener("DOMContentLoaded", function () {
     const button = document.querySelector("button i.fas.fa-shopping-bag");
     
@@ -76,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+// notification
 document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         const popup = document.createElement("div");
@@ -99,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 30000);
     }, 10000);
 });
+// night button
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.createElement('button');
     button.innerHTML = '🌙';
