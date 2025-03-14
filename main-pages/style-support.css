@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    background-color: rgb(151, 14, 140);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav button i {
+    font-size: 1.8rem;
+}
+
+#hero {
+    background-color: #5b0a6e;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fffbe1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+button {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 500;
+}
